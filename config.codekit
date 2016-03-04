@@ -36,6 +36,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/img\/download-app.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4518,
+		"inputAbbreviatedPath": "\/img\/download-app.png",
+		"outputAbbreviatedPath": "\/img\/download-app.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/profile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

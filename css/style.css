@@ -13,14 +13,14 @@ body {
 
 .wrapper-wide {
   max-width: 1400px;
-  margin: 0 2rem; }
+  margin: 0 1.55rem; }
 
 nav {
   padding-top: 2rem;
-  position: fixed;
+  position: absolute;
   z-index: 110;
   top: 0; }
-  nav #logo {
+  nav #logo img {
     width: 90%; }
 
 .main-content .top {
@@ -39,7 +39,7 @@ nav {
     pointer-events: none;
     position: absolute;
     background-color: white;
-    border-right: 2px solid #00de61; }
+    border-right: 2px solid #00DD61; }
   .main-content .top #top-inner {
     background-image: url("../img/shoes.jpg");
     background-position-x: 44%;
@@ -57,35 +57,49 @@ nav {
       display: block;
       width: 100%;
       box-sizing: border-box; }
-      .main-content .top #top-inner .content .content-inner-top {
+      .main-content .top #top-inner .content .content-inner {
         position: relative;
         margin-top: 4.5rem; }
-        .main-content .top #top-inner .content .content-inner-top #photo {
+        .main-content .top #top-inner .content .content-inner #photo {
           background-image: url("../img/profile.jpg");
           background-position: center;
           background-size: cover;
           margin-top: 1.6rem;
           float: right;
-          right: -10px;
+          right: -1px;
           position: absolute;
           height: 60px;
           width: 60px;
           z-index: 999;
           border: 2px solid white;
           border-radius: 50%; }
-        .main-content .top #top-inner .content .content-inner-top .shipping-title {
+        .main-content .top #top-inner .content .content-inner .shipping-title {
           max-width: 80%;
           font-size: 2rem;
           text-align: left;
           display: inline-block; }
-        .main-content .top #top-inner .content .content-inner-top .content-inner-main {
+        .main-content .top #top-inner .content .content-inner .content-inner-top {
           margin-top: .3rem; }
-          .main-content .top #top-inner .content .content-inner-top .content-inner-main p {
+          .main-content .top #top-inner .content .content-inner .content-inner-top p {
             margin: 0;
             line-height: 22px; }
-          .main-content .top #top-inner .content .content-inner-top .content-inner-main .shipping-text-blue {
+          .main-content .top #top-inner .content .content-inner .content-inner-top .shipping-text-blue {
             color: #44A4FF;
-            margin-bottom: .6rem;
+            margin-bottom: .4rem;
             font-size: .8rem; }
-          .main-content .top #top-inner .content .content-inner-top .content-inner-main .light {
+          .main-content .top #top-inner .content .content-inner .content-inner-top .light {
             font-family: 'Graphik-light'; }
+        .main-content .top #top-inner .content .content-inner .content-inner-btm {
+          padding: 1rem 0;
+          min-height: 170px;
+          width: 100%;
+          margin-top: 1.8rem;
+          background-color: #00DD61; }
+          .main-content .top #top-inner .content .content-inner .content-inner-btm h3 {
+            width: 85%;
+            color: white;
+            margin: 0;
+            font-size: 1.3rem;
+            line-height: 1.9rem; }
+          .main-content .top #top-inner .content .content-inner .content-inner-btm #app-store img {
+            margin-top: 1rem; }

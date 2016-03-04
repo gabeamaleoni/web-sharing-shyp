@@ -1,4 +1,4 @@
-$green: #00de61;
+$green: #00DD61;
 $blue: #44A4FF;
 
 @font-face {
@@ -21,19 +21,20 @@ body {
 
 .wrapper-wide {
   max-width: 1400px;
-  margin: 0 2rem;
+  margin: 0 1.55rem;
 }
 
 nav {
   padding-top: 2rem;
-  position: fixed;
+  position: absolute;
   z-index: 110;
   top: 0;
   #logo {
-    width: 90%;
+    img {
+      width: 90%;
+    }
   }
 }
-
 .main-content {
   .top {
     background-position-x: right;
@@ -71,7 +72,7 @@ nav {
         display: block;
         width: 100%;
         box-sizing: border-box;
-        .content-inner-top {
+        .content-inner {
           position: relative;
           margin-top: 4.5rem;
           #photo {
@@ -80,7 +81,7 @@ nav {
             background-size: cover;
             margin-top: 1.6rem;
             float: right;
-            right: -10px;
+            right: -1px;
             position: absolute;
             height: 60px;
             width: 60px;
@@ -94,7 +95,7 @@ nav {
             text-align: left;
             display: inline-block;
           }
-          .content-inner-main {
+          .content-inner-top {
             margin-top: .3rem;
             p {
               margin: 0;
@@ -102,23 +103,34 @@ nav {
             }
             .shipping-text-blue {
               color: $blue;
-              margin-bottom: .6rem;
+              margin-bottom: .4rem;
               font-size: .8rem;
             }
             .light {
               font-family: 'Graphik-light';
             }
           }
+          .content-inner-btm {
+            padding: 1rem 0;
+            min-height: 170px;
+            width: 100%;
+            margin-top: 1.8rem;
+            background-color: $green;
+            h3 {
+              width: 85%;
+              color: white;
+              margin: 0;
+              font-size: 1.3rem;
+              line-height: 1.9rem;
+            }
+            #app-store {
+              img {
+                margin-top: 1rem;
+              }
+            }
+          }
         }
       }
     }
-  }
-}
-.main-content{
-  .top {
-    #line {
-
-    }
-
   }
 }
