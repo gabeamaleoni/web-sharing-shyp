@@ -1,13 +1,27 @@
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../GraphikFont/Graphik-Medium.otf) format("truetype"); }
+@font-face {
+  font-family: 'Graphik-light';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../GraphikFont/Graphik-Regular.otf) format("truetype"); }
+body {
+  font-family: 'Graphik'; }
+
 .wrapper-wide {
   max-width: 1400px;
-  width: 90%;
-  margin: 0 auto; }
+  margin: 0 2rem; }
 
 nav {
   padding-top: 2rem;
   position: fixed;
   z-index: 110;
   top: 0; }
+  nav #logo {
+    width: 90%; }
 
 .main-content .top {
   background-position-x: right;
@@ -25,7 +39,7 @@ nav {
     pointer-events: none;
     position: absolute;
     background-color: white;
-    border-right: 1px solid #00de61; }
+    border-right: 2px solid #00de61; }
   .main-content .top #top-inner {
     background-image: url("../img/shoes.jpg");
     background-position-x: 44%;
@@ -43,19 +57,35 @@ nav {
       display: block;
       width: 100%;
       box-sizing: border-box; }
-      .main-content .top #top-inner .content .content-inner {
+      .main-content .top #top-inner .content .content-inner-top {
         position: relative;
         margin-top: 4.5rem; }
-        .main-content .top #top-inner .content .content-inner #photo {
+        .main-content .top #top-inner .content .content-inner-top #photo {
           background-image: url("../img/profile.jpg");
           background-position: center;
           background-size: cover;
-          margin-top: 8rem;
-          min-height: 55px;
-          max-height: 55px;
-          z-index: 999; }
-        .main-content .top #top-inner .content .content-inner .shipping-title {
+          margin-top: 1.6rem;
+          float: right;
+          right: -10px;
+          position: absolute;
+          height: 60px;
+          width: 60px;
+          z-index: 999;
+          border: 2px solid white;
+          border-radius: 50%; }
+        .main-content .top #top-inner .content .content-inner-top .shipping-title {
           max-width: 80%;
           font-size: 2rem;
           text-align: left;
           display: inline-block; }
+        .main-content .top #top-inner .content .content-inner-top .content-inner-main {
+          margin-top: .3rem; }
+          .main-content .top #top-inner .content .content-inner-top .content-inner-main p {
+            margin: 0;
+            line-height: 22px; }
+          .main-content .top #top-inner .content .content-inner-top .content-inner-main .shipping-text-blue {
+            color: #44A4FF;
+            margin-bottom: .6rem;
+            font-size: .8rem; }
+          .main-content .top #top-inner .content .content-inner-top .content-inner-main .light {
+            font-family: 'Graphik-light'; }
