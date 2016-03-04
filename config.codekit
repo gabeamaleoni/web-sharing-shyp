@@ -69,6 +69,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/text-me.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3486,
+		"inputAbbreviatedPath": "\/img\/text-me.png",
+		"outputAbbreviatedPath": "\/img\/text-me.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sharing.html": {
 		"fileType": 8192,
 		"ignore": 0,
