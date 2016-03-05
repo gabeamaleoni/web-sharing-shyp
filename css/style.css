@@ -62,7 +62,7 @@ nav {
         background-size: cover;
         margin-top: 1.6rem;
         float: right;
-        right: -7px;
+        right: -9px;
         position: absolute;
         height: 64px;
         width: 64px;
@@ -84,7 +84,8 @@ nav {
           margin-bottom: .4rem;
           font-size: .8rem; }
         .main-content .top #top-inner .content .content-inner .content-inner-top .light {
-          font-family: 'Graphik-light'; }
+          font-family: 'Graphik-light';
+          max-width: 60%; }
       .main-content .top #top-inner .content .content-inner .content-inner-btm {
         padding: 30px 0;
         min-height: 170px;
@@ -93,7 +94,7 @@ nav {
         background-color: #00DD61;
         box-shadow: 14px 16px 10px 0px rgba(0, 0, 0, 0.12); }
         .main-content .top #top-inner .content .content-inner .content-inner-btm h3 {
-          width: 85%;
+          width: 95%;
           color: white;
           margin: 0;
           font-size: 21px;
@@ -132,6 +133,36 @@ nav {
   #phone-get-app-form :-ms-input-placeholder {
     color: #00c456; }
 
+@media screen and (min-width: 640px) {
+  .main-content .top #line {
+    right: 120px; }
+  .main-content .top #top-inner .content .content-inner #photo {
+    right: 105px; }
+  .main-content .top #top-inner .content .content-inner .shipping-title {
+    max-width: 70%;
+    font-size: 44px;
+    line-height: 52px;
+    margin-bottom: 10px; }
+  .main-content .top #top-inner .content .content-inner .light {
+    max-width: 100%; }
+  .main-content .top #top-inner .content .content-inner .content-inner-btm {
+    max-width: 500px; }
+    .main-content .top #top-inner .content .content-inner .content-inner-btm h3 {
+      width: 100%;
+      font-size: 27px;
+      line-height: 32px; }
+    .main-content .top #top-inner .content .content-inner .content-inner-btm #phone-get-app-form {
+      display: block; }
+      .main-content .top #top-inner .content .content-inner .content-inner-btm #phone-get-app-form .phone-number-white {
+        font-size: 13px;
+        color: white;
+        line-height: 16px;
+        margin: 25px auto 0; }
+    .main-content .top #top-inner .content .content-inner .content-inner-btm #app-store {
+      display: none; }
+    .main-content .top #top-inner .content .content-inner .content-inner-btm #text-link {
+      display: block;
+      margin-top: 18px; } }
 @media screen and (min-width: 1024px) {
   nav {
     padding-top: 0;
@@ -143,8 +174,7 @@ nav {
       width: 92px; }
 
   .main-content .top #line {
-    right: 355px;
-    border-right: 2px solid #00DD61; }
+    right: 46%; }
   .main-content .top #top-inner {
     background-position-x: 50px;
     background-position-y: 40%;
@@ -152,7 +182,7 @@ nav {
     .main-content .top #top-inner .content .content-inner {
       margin-top: 5.5rem; }
       .main-content .top #top-inner .content .content-inner #photo {
-        right: 310px;
+        right: 44.5%;
         top: -90px;
         height: 80px;
         width: 80px; }
@@ -167,22 +197,11 @@ nav {
         line-height: 16px; }
       .main-content .top #top-inner .content .content-inner .content-inner-top p {
         font-size: 16px;
-        line-height: 20px; }
-      .main-content .top #top-inner .content .content-inner .content-inner-btm {
-        max-width: 500px; }
-        .main-content .top #top-inner .content .content-inner .content-inner-btm h3 {
-          width: 100%;
-          font-size: 27px;
-          line-height: 32px; }
-        .main-content .top #top-inner .content .content-inner .content-inner-btm #phone-get-app-form {
-          display: block; }
-          .main-content .top #top-inner .content .content-inner .content-inner-btm #phone-get-app-form .phone-number-white {
-            font-size: 13px;
-            color: white;
-            line-height: 16px;
-            margin: 25px auto 0; }
-        .main-content .top #top-inner .content .content-inner .content-inner-btm #app-store {
-          display: none; }
-        .main-content .top #top-inner .content .content-inner .content-inner-btm #text-link {
-          display: block;
-          margin-top: 18px; } }
+        line-height: 20px; } }
+@media screen and (min-width: 1440px) {
+  .main-content .top #line {
+    right: 750px; }
+  .main-content .top #top-inner .content .content-inner #photo {
+    right: 705px; }
+  .main-content .top #top-inner .content .content-inner .shipping-title {
+    max-width: 46%; } }
